@@ -113,6 +113,49 @@ if (Quantity == 0){
 
 
 
+ let basketBall = [
+   {
+     name:"michael",
+     age:24,
+     registration:2021,
+     course:"programming",
+     attendence:100,
+     stinepdy:true,
+   },
+   {
+    name:"michael",
+    age:22,
+    registration:2020,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  }
+ ]
+ let agArray = basketBall.filter(els=>{
+     return els.age == 22;
+ })
+
+ console.log(agArray);
+
+ let regArray = basketBall.filter(elements=>{
+   return elements.registration == 2019;
+ })
+ console.log(regArray);
+
+
+
+ 
+
+
+
 
 
 
