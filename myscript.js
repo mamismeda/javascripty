@@ -1,7 +1,7 @@
 // FIRST FUNC
 
-function oneFunction(farenheit){
- return(5/9) * (farenheit - 32);
+function oneFunction(farenheit) {
+  return (5 / 9) * (farenheit - 32);
 }
 
 let divID = document.getElementById("show");
@@ -15,7 +15,7 @@ console.log(oneFunction(100));
 let changED = "my new js"
 
 
-function changeFunc(change){
+function changeFunc(change) {
   let newC = "my newest js"
   return changED = newC;
 }
@@ -43,15 +43,15 @@ function card() {
   </div>
 </div>
 `
-frix.innerHTML= boots;
+  frix.innerHTML = boots;
 
 }
 card();
 
 // FIFTH FUNC
 
-function mata(x,y) {
-    return x * y;
+function mata(x, y) {
+  return x * y;
 }
 console.log(mata(45.12, 23.3).toFixed(1));
 console.log(mata(37.44, 61.52).toFixed(2));
@@ -60,7 +60,7 @@ console.log(mata(15.13, 42.55).toFixed(3));
 //END OF FUNCTIONS
 
 
-let fst = "name : skittles" ;
+let fst = "name : skittles";
 let secun = 'pic/skittles.jpg';
 let won = "weight:0.250";
 let fas = "price:1.5";
@@ -79,169 +79,173 @@ let boxy = `<div class="card" style="width: 18rem;">
 </div>
 </div>
 `
-objy.innerHTML= boxy;
+objy.innerHTML = boxy;
 
 
 let myObject = {
   name: "skittles",
-  photo:"pic/skittles.jpg",
-  weight:0.250,
-  price:1.5,
-  Quantity:5,
-     
-    buy:function(count) {
-      return this.price * count ;
-    }
+  photo: "pic/skittles.jpg",
+  weight: 0.250,
+  price: 1.5,
+  Quantity: 5,
+
+  buy: function (count) {
+    return this.price * count;
+  }
 }
 
 
 console.log(myObject.buy(2));
 
-let hallo ;
+let hallo;
 let Quantity = 5;
-if (Quantity == 0){
+if (Quantity == 0) {
   hallo = ("არ არის მარაგში");
   console.log("არ არის მარაგში");
 
 } else (Quantity > 0)
-  hallo = ("მარაგშია" + " " + "რაოდენობა" + " " + "5");
-  console.log("მარაგშია" + " " + "რაოდენობა" + " " + "5");
+hallo = ("მარაგშია" + " " + "რაოდენობა" + " " + "5");
+console.log("მარაგშია" + " " + "რაოდენობა" + " " + "5");
 
- let dums = document.getElementById("domy");
- dums.innerHTML = hallo;
-
-
+let dums = document.getElementById("domy");
+dums.innerHTML = hallo;
 
 
- let basketBall = [
-   {
-     name:"michael",
-     photo:'pic/layer.png',
-     age:24,
-     registration:2021,
-     course:"UI/UX",
-     attendence:100,
-     stinepdy:true,
-   },
-   {
-    name:"john",
-    photo:'pic/layer.png',
-    age:22,
-    registration:2020,
-    course:"programming",
-    attendence:60,
-    stinepdy:true,
+
+
+let basketBall = [
+  {
+    name: "michael",
+    photo: 'pic/layer.png',
+    age: 24,
+    registration: 2021,
+    course: "UI/UX",
+    attendence: 100,
+    stinepdy: true,
   },
   {
-    name:"miky",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
+    name: "john",
+    photo: 'pic/layer.png',
+    age: 22,
+    registration: 2020,
+    course: "programming",
+    attendence: 60,
+    stinepdy: true,
   },
   {
-    name:"allen",
-    photo:'pic/layer.png',
-    age:24,
-    registration:2019,
-    course:"UI/UX",
-    attendence:50,
-    stinepdy:true,
+    name: "miky",
+    photo: 'pic/layer.png',
+    age: 30,
+    registration: 2019,
+    course: "programming",
+    attendence: 100,
+    stinepdy: true,
   },
   {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:22,
-    registration:2019,
-    course:"programming",
-    attendence:80,
-    stinepdy:true,
+    name: "allen",
+    photo: 'pic/layer.png',
+    age: 24,
+    registration: 2019,
+    course: "UI/UX",
+    attendence: 50,
+    stinepdy: true,
   },
   {
-    name:"hugo",
-    photo:'pic/layer.png',
-    age:26,
-    registration:2021,
-    course:"UI/UX",
-    attendence:100,
-    stinepdy:true,
+    name: "michael",
+    photo: 'pic/layer.png',
+    age: 22,
+    registration: 2019,
+    course: "programming",
+    attendence: 80,
+    stinepdy: true,
   },
   {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
+    name: "hugo",
+    photo: 'pic/layer.png',
+    age: 26,
+    registration: 2021,
+    course: "UI/UX",
+    attendence: 100,
+    stinepdy: true,
   },
   {
-    name:"kimmy",
-    photo:'pic/layer.png',
-    age:25,
-    registration:2022,
-    course:"programming",
-    attendence:50,
-    stinepdy:true,
+    name: "michael",
+    photo: 'pic/layer.png',
+    age: 30,
+    registration: 2019,
+    course: "programming",
+    attendence: 100,
+    stinepdy: true,
   },
   {
-    name:"suny",
-    photo:'pic/layer.png',
-    age:22,
-    registration:2018,
-    course:"UI/UX",
-    attendence:50,
-    stinepdy:true,
+    name: "kimmy",
+    photo: 'pic/layer.png',
+    age: 25,
+    registration: 2022,
+    course: "programming",
+    attendence: 50,
+    stinepdy: true,
   },
   {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:22,
-    registration:2018,
-    course:"UI/UX",
-    attendence:100,
-    stinepdy:true,
+    name: "suny",
+    photo: 'pic/layer.png',
+    age: 22,
+    registration: 2018,
+    course: "UI/UX",
+    attendence: 50,
+    stinepdy: true,
+  },
+  {
+    name: "michael",
+    photo: 'pic/layer.png',
+    age: 22,
+    registration: 2018,
+    course: "UI/UX",
+    attendence: 100,
+    stinepdy: true,
   },
 
 
 
- ]
- let agArray = basketBall.filter(els=>{
-     return els.age == 22;
- })
+]
+let agArray = basketBall.filter(els => {
+  return els.age == 22;
+})
 
- console.log(agArray);
+console.log(agArray);
 
- let regArray = basketBall.filter(elements=>{
-   return elements.registration == 2019;
- })
- console.log(regArray);
+let regArray = basketBall.filter(elements => {
+  return elements.registration == 2019;
+})
+console.log(regArray);
 
- let uiUx = basketBall.filter(el1=>{
-   return el1.course == "programming";
- })
+let uiUx = basketBall.filter(el1 => {
+  return el1.course == "programming";
+})
 console.log(uiUx);
 
-let attY = basketBall.filter(el2=>{
+let attY = basketBall.filter(el2 => {
   return el2.attendence == 100;
 })
 console.log(attY);
 
-let stip = basketBall.filter(el3=>{
+let stip = basketBall.filter(el3 => {
   return el3.stipendy == true;
 })
 console.log(stip);
 
-let namy = basketBall.filter(el4=>{
+let namy = basketBall.filter(el4 => {
   return el4.name == "michael";
 })
 console.log(namy);
 
 
-let kislo = document.getElementById("jumpy");
-jumpy.innerHTML = basketBall;
+for (let i = 0; i < basketBall.length; i++) {
+  console.log(basketBall[i]);
+  document.getElementById("jumpy").innerHTML = JSON.stringify(basketBall, null, 2);
+}
+
+
 
 
 
