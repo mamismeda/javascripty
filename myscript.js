@@ -124,7 +124,7 @@ if (Quantity == 0){
      stinepdy:true,
    },
    {
-    name:"michael",
+    name:"john",
     photo:'pic/layer.png',
     age:22,
     registration:2020,
@@ -133,11 +133,38 @@ if (Quantity == 0){
     stinepdy:true,
   },
   {
-    name:"michael",
+    name:"miky",
     photo:'pic/layer.png',
     age:30,
     registration:2019,
     course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"allen",
+    photo:'pic/layer.png',
+    age:24,
+    registration:2019,
+    course:"UI/UX",
+    attendence:50,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:22,
+    registration:2019,
+    course:"programming",
+    attendence:80,
+    stinepdy:true,
+  },
+  {
+    name:"hugo",
+    photo:'pic/layer.png',
+    age:26,
+    registration:2021,
+    course:"UI/UX",
     attendence:100,
     stinepdy:true,
   },
@@ -151,56 +178,29 @@ if (Quantity == 0){
     stinepdy:true,
   },
   {
-    name:"michael",
+    name:"kimmy",
     photo:'pic/layer.png',
-    age:30,
-    registration:2019,
+    age:25,
+    registration:2022,
     course:"programming",
-    attendence:100,
+    attendence:50,
+    stinepdy:true,
+  },
+  {
+    name:"suny",
+    photo:'pic/layer.png',
+    age:22,
+    registration:2018,
+    course:"UI/UX",
+    attendence:50,
     stinepdy:true,
   },
   {
     name:"michael",
     photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
-  },
-  {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
-  },
-  {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
-  },
-  {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
-    attendence:100,
-    stinepdy:true,
-  },
-  {
-    name:"michael",
-    photo:'pic/layer.png',
-    age:30,
-    registration:2019,
-    course:"programming",
+    age:22,
+    registration:2018,
+    course:"UI/UX",
     attendence:100,
     stinepdy:true,
   },
@@ -234,10 +234,14 @@ let stip = basketBall.filter(el3=>{
 })
 console.log(stip);
 
+let namy = basketBall.filter(el4=>{
+  return el4.name == "michael";
+})
+console.log(namy);
 
- 
 
-
+let kislo = document.getElementById("jumpy");
+jumpy.innerHTML = basketBall;
 
 
 
