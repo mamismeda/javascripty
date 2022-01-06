@@ -116,6 +116,7 @@ if (Quantity == 0){
  let basketBall = [
    {
      name:"michael",
+     photo:'pic/layer.png',
      age:24,
      registration:2021,
      course:"UI/UX",
@@ -124,6 +125,7 @@ if (Quantity == 0){
    },
    {
     name:"michael",
+    photo:'pic/layer.png',
     age:22,
     registration:2020,
     course:"programming",
@@ -132,14 +134,79 @@ if (Quantity == 0){
   },
   {
     name:"michael",
+    photo:'pic/layer.png',
     age:30,
     registration:2019,
     course:"programming",
     attendence:100,
     stinepdy:true,
-  }
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
+  {
+    name:"michael",
+    photo:'pic/layer.png',
+    age:30,
+    registration:2019,
+    course:"programming",
+    attendence:100,
+    stinepdy:true,
+  },
 
-  
+
+
  ]
  let agArray = basketBall.filter(els=>{
      return els.age == 22;
