@@ -118,7 +118,7 @@ if (Quantity == 0){
      name:"michael",
      age:24,
      registration:2021,
-     course:"programming",
+     course:"UI/UX",
      attendence:100,
      stinepdy:true,
    },
@@ -127,7 +127,7 @@ if (Quantity == 0){
     age:22,
     registration:2020,
     course:"programming",
-    attendence:100,
+    attendence:60,
     stinepdy:true,
   },
   {
@@ -138,6 +138,8 @@ if (Quantity == 0){
     attendence:100,
     stinepdy:true,
   }
+
+  
  ]
  let agArray = basketBall.filter(els=>{
      return els.age == 22;
@@ -150,6 +152,20 @@ if (Quantity == 0){
  })
  console.log(regArray);
 
+ let uiUx = basketBall.filter(el1=>{
+   return el1.course == "programming";
+ })
+console.log(uiUx);
+
+let attY = basketBall.filter(el2=>{
+  return el2.attendence == 100;
+})
+console.log(attY);
+
+let stip = basketBall.filter(el3=>{
+  return el3.stipendy == true;
+})
+console.log(stip);
 
 
  
